@@ -17,8 +17,8 @@ def main():
     print('Authorized!')
 
     page_token = None
-    searchTerms = ['Chemistry 10H Notes' , 'AP World Notes']
-    searchTermNewParentID = ['1uMfiMCEBV5MZbFf4kB0IBm4U95E49u29' , '1XvHDFGfF-Vd-NV-um_qfSlN-aYEjjW5X']
+    searchTerms = ['Chemistry 10H Notes' , 'AP World Notes', 'apwh']
+    searchTermNewParentID = ['1uMfiMCEBV5MZbFf4kB0IBm4U95E49u29' , '1XvHDFGfF-Vd-NV-um_qfSlN-aYEjjW5X', '171-sRPtxkRi2jEAIFsVrRSV9ZnS4G_sp']
     for i in range (0, len(searchTerms)):
         print('On loop #' + str(i))
 
